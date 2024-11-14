@@ -1,24 +1,21 @@
+:root {
+    --cor-de-fundo: #EBECEE;
+}
+
 body {
-    background-color: #1D4221;
-    color: white;
-    font-family: "Bai Jamjuree", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
-    margin: 0;
+    background-color: var(--cor-de-fundo);
 }
 
-button {
-    background-color: #64A712;
-    color: white;
-    font-family: "Bai Jamjuree", sans-serif;
+h1 {
+    background-color: white;
+}
+@import url("styles/header.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
 }
 
-.passo {
-    display: none;
-}
-
-.passo.ativo {
-    display:block;
+body {
+    background-color: var(--cor-de-fundo);
 }
